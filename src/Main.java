@@ -17,7 +17,7 @@ public class Main {
 
         // Generacion de registros simulados.
         List<RegistroTransporte> registros =
-                GeneradorDatos.generar(10000);
+                GeneradorDatos.generar(100000);
 
         System.out.println("\nRegistros generados: "
                 + registros.size());
